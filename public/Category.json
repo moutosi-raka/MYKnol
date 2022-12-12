@@ -1,0 +1,74 @@
+
+
+[
+    {
+        "id": 1,
+        "icons": "fa-solid fa-graduation-cap h-icon1",
+        "name": "Education"
+    },
+    {
+        "id": 2,
+        "icons": "fa-solid fa-baseball-bat-ball h-icon1",
+        "name": "Sports"
+    },
+    {
+        "id": 3,
+        "icons": "fa-solid fa-cart-shopping h-icon1",
+        "name": "Ecommerce"
+    },
+    {
+        "id": 4,
+        "icons": "fa-solid fa-user-tag h-icon1",
+        "name": "portfolio"
+    },
+    {
+        "id": 5,
+        "icons": "fa-solid fa-circle-dollar-to-slot h-icon1",
+        "name": "No Profite"
+    },
+    {
+        "id": 6,
+        "icons": "fa-solid fa-bell-concierge h-icon1",
+        "name": "Services"
+    },
+    {
+        "id": 7,
+        "icons": "fa-solid fa-plane-departure h-icon1",
+        "name": "Aerospace"
+    },
+    {
+        "id": 8,
+        "icons": "fa-solid fa-flask-vial h-icon1",
+        "name": "Chemical"
+    },
+    {
+        "id": 9,
+        "icons": "fa-solid fa-car-side h-icon1",
+        "name": "Transport"
+    },
+    {
+        "id": 10,
+        "icons": "fa-solid fa-industry h-icon1",
+        "name": "Manufacturing"
+    },
+    {
+        "id": 11,
+        "icons": "fa-solid fa-tractor h-icon1",
+        "name": "Heavy"
+    },
+    {
+        "id": 12,
+        "icons": "fa-solid fa-plug h-icon1",
+        "name": "Electric"
+    },
+    {
+        "id": 13,
+        "icons": "fa-solid fa-suitcase-medical h-icon1",
+        "name": "Healthcare"
+    },
+    {
+        "id": 14,
+        "icons": "fa-solid fa-arrow-trend-up h-icon1",
+        "name": "Economic"
+    }
+]

@@ -1,8 +1,11 @@
 .banner{
-    background: url('../../assests/road-672036_960_720.jpg');
+    background:  linear-gradient(rgba(17, 96, 156,.8), rgba(160, 185, 203,.4)), url('../../assests/road-672036_960_720.jpg');
     background-size: cover;
       background-repeat: no-repeat;
       min-height: 100vh;
-      position: relative;
-    
+      position: relative;   
+}
+
+.menu li{
+    padding-right: 30px!important;
 }
