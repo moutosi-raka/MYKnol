@@ -1,0 +1,45 @@
+.about-banner-one{
+    
+    background-color: #1e293b;
+    height: 90vh;
+    width: 100vw;
+    z-index: 1;
+}
+
+.about-banner-tow{
+    -webkit-animation: abt-two-anim 1s ease-in-out;
+    animation: abt-two-anim 1s ease-in-out;
+    background: #7f7fd5;
+    background: linear-gradient(90deg,#91eae4,#86a8e7,#7f7fd5);
+    -webkit-clip-path: polygon(0 0,0 85%,100% 0);
+    clip-path: polygon(0 0,0 85%,100% 0);
+    height: 100%;
+    position: absolute;
+    text-align: right;
+    width: 100%;
+
+}
+.abt-h1{
+    animation: abt-h1-anim 1s ease-in-out;
+    color: #fff;
+    font-size: 100px;
+    left: 3%;
+    position: absolute;
+    top: 23%;
+    z-index: 100;
+}
+
+.abt-icon1 {
+    -webkit-animation: abt-icon-anim 1s ease-in-out;
+    animation: abt-icon-anim 1s ease-in-out;
+    color: #fff;
+    font-size: 135px;
+    left: 70%;
+    position: absolute;
+    top: 60%;
+}
+
+.about-banner-one, .about-banner-tow{
+    margin: 0;
+    padding: 0;
+}

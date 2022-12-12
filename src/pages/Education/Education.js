@@ -59,8 +59,9 @@ const Education = () => {
                     <figure><img  src={info.img} alt="Shoes" /></figure>
                     <div className="p-8 flex items-center justify-between">
                         <div className=''>
-                            <h1 className='card-p1 '>{info.name}</h1>
-                            <div>
+                            <h1 className='card-p1'>
+                                {info.name}</h1>
+                            <div className='star'>
                             <i className="fa-solid fa-star"></i>
                             <i className="fa-solid fa-star"></i>
                             <i className="fa-solid fa-star"></i>

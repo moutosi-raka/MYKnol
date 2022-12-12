@@ -4,9 +4,9 @@ import { Link } from 'react-router-dom';
 const HomeNavbar = () => {
 
     const menuItem = <>
-    <li><Link>Home</Link></li>
-    <li><Link>About us</Link></li>
-    <li><Link>Contact</Link></li>
+    <li><Link to='/'>Home</Link></li>
+    <li><Link to='/about'>About us</Link></li>
+    <li><Link to='/contact'>Contact</Link></li>
     <button className="btn btn-success mr-4"><Link>Login</Link></button>
     <button className="btn btn-success"><Link>SignUp</Link></button>
     
@@ -23,10 +23,9 @@ const HomeNavbar = () => {
         {menuItem}
       </ul>
     </div>
-    {/* <Link className="btn btn-ghost normal-case text-xl">daisyUI</Link> */}
   </div>
   <div className="navbar-center hidden lg:flex navbar-end">
-    <ul className="menu menu-horizontal px-5 fw-bold text-white text-xl ">
+    <ul className="menu menu-horizontal  fw-bold text-white text-xl px-2">
       {menuItem}
     </ul>
   </div>
