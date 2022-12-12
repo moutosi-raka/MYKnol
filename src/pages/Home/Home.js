@@ -4,6 +4,7 @@ import '../Banner/Banner.css'
 import Category from '../Category/Category';
 import Education from '../Education/Education';
 import Sports from '../Sports/Sports';
+import Portfoli from '../Portfoli/Portfoli';
 
 const Home = () => {
     return (
@@ -20,6 +21,7 @@ const Home = () => {
         <Education></Education>
         </div>
         <Sports></Sports>
+        <Portfoli></Portfoli>
        </div>
     );
 };

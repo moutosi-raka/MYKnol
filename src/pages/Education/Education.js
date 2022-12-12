@@ -81,16 +81,7 @@ const Education = () => {
                     </div>
                 </div>)
                   }
-                    {/* <div className="px-2 drop-shadow-2xl">
-                        <img src={edu2} alt=""></img>
-                        <h1>hell</h1>
-                    </div>
-                    <div className="px-2 drop-shadow-2xl">
-                        <img src={edu3} alt=""></img>
-                    </div>
-                    <div className="px-2">
-                        <img src={edu4} alt=""></img>
-                    </div> */}
+                   
                 </Slider>
             </div>
         </div>
