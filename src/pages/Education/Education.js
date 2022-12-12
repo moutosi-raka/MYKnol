@@ -29,7 +29,7 @@ const Education = () => {
         },
         {
             id: 4,
-            name: 'Known Education',
+            name: 'Known Edu',
             img: edu4
         },
         {
