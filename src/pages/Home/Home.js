@@ -3,6 +3,7 @@ import HomeNavbar from '../HomeNavbar/HomeNavbar';
 import '../Banner/Banner.css'
 import Category from '../Category/Category';
 import Education from '../Education/Education';
+import Sports from '../Sports/Sports';
 
 const Home = () => {
     return (
@@ -18,6 +19,7 @@ const Home = () => {
         <div className='w-11/12 mx-auto '>
         <Education></Education>
         </div>
+        <Sports></Sports>
        </div>
     );
 };
