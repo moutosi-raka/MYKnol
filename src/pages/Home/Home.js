@@ -5,6 +5,7 @@ import Category from '../Category/Category';
 import Education from '../Education/Education';
 import Sports from '../Sports/Sports';
 import Portfoli from '../Portfoli/Portfoli';
+import Footer from '../Footer/Footer';
 
 const Home = () => {
     return (
@@ -22,6 +23,7 @@ const Home = () => {
         </div>
         <Sports></Sports>
         <Portfoli></Portfoli>
+        <Footer></Footer>
        </div>
     );
 };
