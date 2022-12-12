@@ -48,7 +48,7 @@ const Category = () => {
             <div className='my-12 text-center'>
                 <h1 className='text-4xl'>Our Categories</h1>
             </div>
-            <div className='grid md:grid-cols-4 lg:grid-cols-7 grid-cols-2 gap-4 w-11/12 mx-auto my-20'>
+            <div className='grid md:grid-cols-4 lg:grid-cols-7 grid-cols-2 gap-8 w-11/12 mx-auto my-20'>
            
                {
                     categories.map(category =>

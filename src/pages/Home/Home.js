@@ -2,6 +2,7 @@ import React from 'react';
 import HomeNavbar from '../HomeNavbar/HomeNavbar';
 import '../Banner/Banner.css'
 import Category from '../Category/Category';
+import Education from '../Education/Education';
 
 const Home = () => {
     return (
@@ -14,6 +15,9 @@ const Home = () => {
            </div>
         </div>
         <Category></Category>
+        <div className='w-11/12 mx-auto '>
+        <Education></Education>
+        </div>
        </div>
     );
 };

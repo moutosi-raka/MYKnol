@@ -1,38 +1,47 @@
-.App {
-  text-align: center;
+.section-header {
+  color: #3fb09d;
+  font-size: 30px;
+  font-weight: 600;
+  margin-left: 8%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.slick-prev:before, .slick-next:before{
+  color: red!important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.slick-slide {
+  padding: 20px;
+}
+.addtocart {
+  cursor: pointer;
+  margin-left: 48px;
+  width: 20%;
+}
+.cart-icon {
+  background-color: rgba(63,176,157,.5);
+  border: 1px solid teal;
+  border-radius: 20px;
+  color: #000;
+  font-size: 20px;
+  padding: 4px;
+}
+.live-btn {
+  font-size: 13px;
+  /* margin: 10% auto auto; */
+  padding: 5px 10px;
+  background-color: rgba(63,176,157,.5);
+    border: 2px solid #3fb09d;
+}
+.buy-btn{
+  font-size: 13px;
+  padding: 5px 10px;
+  background-color: rgba(238,130,238,.5);
+  border: 2px solid violet;
+  margin-top: 10px;
+}
+.card-anchor {
+  color: #000;
+  font-size: 11px;
+  text-decoration: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
